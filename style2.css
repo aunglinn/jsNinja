@@ -1,0 +1,128 @@
+@charset "utf-8";
+h1{
+	color: steelBlue;
+}
+h2{
+	color: sienna;
+}
+h3{
+	color: OliveDrab;
+}
+body{
+	background: whitegrey;
+	font-family: arial;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+.clearfloat{
+	clear: both;
+}
+.code{
+color: grey;
+font-size: 0.8em;
+text-indent: 40px;
+}
+.zebra {
+background-color: #dddddd;
+color: #666666;
+}
+.zebraHover {
+background-color: #FFFACD;
+}
+.revealer {
+color: steelBlue;
+text-decoration: underline;
+font-weight: bold;
+cursor: pointer;
+}
+#main {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	padding: 0;
+	margin-top: 10px;
+	background: #fff;
+}
+#wrapper{
+	position:relative;
+	margin: 0;
+	padding: 20px;
+	background: #fff;
+	float: left;
+}
+#content{
+position: relative;
+margin: 0 auto;
+width: 700px;
+}
+#linkTop{
+position: fixed;
+float: left;
+bottom: 0;
+background: #3399CC;
+padding: 5px;
+margin-left: -60px;
+border-radius: 5px 5px 0 0;
+}
+#linkTop a{
+text-decoration: none;
+color: white;
+}
+.subLesson{
+margin: 10px 0;
+padding: 10px;
+border: 1px solid #c0c0c0;
+background-color: white;
+border-radius: 10px;
+-webkit-box-shadow: 1px 1px 2px #DEDEDE;
+box-sahdow: 1px 1px 2px #DEDEDE;
+}
+
+/* navigation */
+#mainNav {
+position: relative;
+width: 960px;
+}
+#mainNav ul{
+position: relative;
+float: left;
+display: block;
+width: 960px;
+}
+#mainNav ul li{
+list-style: none;
+float: left;
+margin: 0 -150px 0 0;
+}
+#mainNav ul li > span{
+display: block;
+color: grey;
+font-size: 0.8em;
+width: 300px;
+}
+#mainNav ul li a{
+display: block;
+background: white;
+border: 1px solid #dedede;
+border-radius: 10px;
+-webkit-box-shadow: 0px 0px 5px #DEDEDE;
+box-sahdow: 0px 0px 5px #DEDEDE;
+padding: 10px 20px;
+width: 200px;
+text-decoration: none;
+overflow: hidden;
+
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#subNav ul li{
+list-style: none;
+}

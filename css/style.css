@@ -1,0 +1,214 @@
+@charset "utf-8";
+h1{
+	color: steelBlue;
+}
+h2{
+	color: sienna;
+}
+h3{
+	color: OliveDrab;
+}
+body{
+	background: whitegrey;
+	font-family: arial;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0 0 200px 0;
+}
+.clearFloat{
+	clear: both;
+}
+.code{
+color: grey;
+font-size: 0.8em;
+text-indent: 40px;
+}
+.zebra {
+background-color: #dddddd;
+color: #666666;
+}
+.zebraHover {
+background-color: #FFFACD;
+}
+.revealer {
+color: steelBlue;
+text-decoration: underline;
+font-weight: bold;
+cursor: pointer;
+}
+#floatSerow{
+position: absolute;
+margin-left: -300px;
+}
+#bio h3{
+font-size: 0.9em;
+color: white;
+background: #005E91;
+padding: 5px 5px 5px 10px;
+margin: 1px 0 0 0;
+}
+#bio div{
+background: #CCE8FE;
+border: 1px solid #5EC5FF;
+padding: 10px;
+}
+#centerMain{
+margin: 0 auto;
+width: 960px;
+}
+#wrapper{
+	position:relative;
+	margin: 0 auto;
+	width: 960px;
+	background: #fff;
+	float: left;
+	padding: 0 0 200px 0;
+}
+.lesson{
+position: relative;
+margin: 200px auto 0 28px;
+width: 860px;
+border: 1px solid #dedede;
+background: #f8f8f8;
+padding: 20px;
+border-radius: 20px;
+float: left;
+}
+#linkTop{
+position: fixed;
+float: right;
+bottom: 0;
+right: 0;
+background: #3399CC;
+padding: 5px 10px 5px 10px;
+border-radius: 5px 5px 0 0;
+}
+#linkTop a{
+text-decoration: none;
+color: white;
+}
+.subLesson{
+margin: 10px 0;
+padding: 10px;
+border: 1px solid #c0c0c0;
+background-color: white;
+border-radius: 10px;
+-webkit-box-shadow: 1px 1px 2px #DEDEDE;
+box-sahdow: 1px 1px 2px #DEDEDE;
+float: left;
+width: 840px;
+}
+
+/* navigation */
+#mainNav {
+position: relative;
+width: 960px;
+}
+#mainNav ul{
+position: relative;
+float: left;
+display: block;
+width: 960px;
+}
+#mainNav ul li{
+list-style: none;
+float: left;
+margin: 0 -170px 0 0;
+}
+#mainNav ul li span{
+display: block;
+color: grey;
+font-size: 0.8em;
+width: 300px;
+}
+#mainNav ul li a{
+display: block;
+background: white;
+border: 1px solid #dedede;
+border-radius: 10px;
+-moz-box-shadow: 0 0 3px #dedede;
+-webkit-box-shadow: 0px 0px 3px #DEDEDE;
+box-sahdow: 0px 0px 3px #DEDEDE;
+padding: 10px;
+max-width: 250px;
+text-decoration: none;
+
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.subNav ul li{
+list-style: none;
+}
+
+header{
+position: fixed;
+top: 0;
+z-index: 999;
+background: #f8f8f8;
+border-radius: 0 0 30px 30px;
+border: 1px solid #dedede;
+}
+
+header > h1{
+text-align: center;
+}
+#tNav {
+position: relative;
+float: left;
+}
+#tNav ul{
+float: left;
+list-style: none;
+padding-left: 0;
+}
+#tNav ul li{
+float: left;
+margin-right: 10px;
+}
+#tNav ul li a{
+display: block;
+border: 1px solid #dedede;
+max-width: 150px;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+border-radius: 5px 0 5px 0;
+}
+#tNav li:hover >a{
+background: #ededed;
+}
+#tNav li:hover >ul{
+display: block;
+}
+#tNav ul ul {
+background: #fefefe;
+position: absolute;
+border: 1px solid #dedede;
+border-radius: 0 5px 0 5px;
+padding: 0;
+overflow: hidden;
+margin: -1px 0 0 0px;
+z-index: 998;
+}
+#tNav ul ul li{
+margin: 0;
+border-bottom: 1px solid #dedede;
+}
+#tNav ul ul li:last-child{
+border-bottom: 0;
+}
+#tNav ul ul li a{
+display: block;
+border: 0px solid #dedede;
+width: 180px;
+margin: 0;
+text-align: left;
+border-radius: 0 0 0 0;
+}
